@@ -1,0 +1,28 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/list/list",
+    "pages/hot/hot"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#6eafee",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "快站投票",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color": "blue",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "你的投票"
+      },
+      {
+        "pagePath": "pages/hot/hot",
+        "text": "热门投票"
+      }
+    ]
+  }
+}
